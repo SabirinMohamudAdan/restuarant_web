@@ -251,14 +251,15 @@ const SpecialsCard = () => {
               {/* Food Info */}
               <div className="p-6">
                 <div className="flex justify-between items-start mb-3">
-                  <h3 className="text-xl font-bold text-gray-800">{item.name}</h3>
+                  <h3 className="text-xl font-bold -[#da9360]">{item.name}</h3>
                   <span className="text-xl font-bold text-amber-600">{item.price}</span>
                 </div>
                 
-                <p className="text-gray-600 text-sm mb-4">{item.description}</p>
+                <p className="text-white text-sm mb-4">{item.description}</p>
                 
                 <motion.button
-                  className="w-full flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-white py-3 px-4 rounded-lg font-medium transition group"
+                  className="w-full flex items-center justify-center gap-2
+                   bg-[#da9360] hover:bg-[#da9360] text-white py-3 px-4 rounded-lg font-medium transition group"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -277,7 +278,8 @@ const SpecialsCard = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <button className="group flex items-center justify-center mx-auto bg-transparent border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors duration-300">
+          <button className="group flex items-center justify-center mx-auto 
+          bg-transparent border-2 border-[#da9360]0 text-[#da9360] hover:bg-[#da9360] hover:text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors duration-300">
             <span>View Full Menu</span>
             <FiArrowRight className="ml-2 group-hover:translate-x-2 transition-transform" />
           </button>
