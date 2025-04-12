@@ -443,7 +443,7 @@ function Service() {
             <h1 className="text-3xl md:text-3xl xl:text-3xl font-bold tracking-[0.1em] text-white transform hover:translate-x-3 transition-transform duration-500 ease-out">
               W E L C O M E   T O   D E L I Z U S
             </h1>
-            <h2 className="text-2xl md:text-3xl font-light italic text-[#da9360] tracking-widest transform hover:translate-x-4 transition-transform duration-500 delay-100 ease-out">
+            <h2 className="text-2xl md:text-3xl font-light italic text-amber-500 tracking-widest transform hover:translate-x-4 transition-transform duration-500 delay-100 ease-out">
               The Art of Confuges
             </h2>
           </header>
@@ -462,7 +462,7 @@ function Service() {
             text-amber-500 hover:bg-amber-500 hover:text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
               OUR MENU
             </button>
-            <button className="bg-amber-500 hover:bg-[#da9360]/90 text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
+            <button className="bg-amber-500 hover:bg-amber-500/90 text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
               RESERVE TABLE
             </button>
           </div>
