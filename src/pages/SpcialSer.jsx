@@ -251,8 +251,8 @@ const SpecialsCard = () => {
               {/* Food Info */}
               <div className="p-6">
                 <div className="flex justify-between items-start mb-3">
-                  <h3 className="text-xl font-bold -[#da9360]">{item.name}</h3>
-                  <span className="text-xl font-bold text-amber-600">{item.price}</span>
+                  <h3 className="text-xl font-bold text-white">{item.name}</h3>
+                  <span className="text-xl font-bold text-[#da9360]">{item.price}</span>
                 </div>
                 
                 <p className="text-white text-sm mb-4">{item.description}</p>
