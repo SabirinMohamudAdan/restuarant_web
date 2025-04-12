@@ -173,7 +173,7 @@ const SpecialsCard = () => {
           Today's Special
           </h2>
           <motion.p 
-            className="text-[#da9360] italic text-xl"
+            className="text-amber-500 italic text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
