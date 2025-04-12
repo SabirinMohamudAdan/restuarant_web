@@ -2470,14 +2470,14 @@ function Home() {
                         variants={imageHover}
                       />
                     </motion.div>
-                    <h3 className="text-amber-300 text-xl md:text-2xl font-medium mb-4 group-hover:text-white transition-colors duration-300">
+                    <h3 className="text-amber-500 text-xl md:text-2xl font-medium mb-4 group-hover:text-white transition-colors duration-300">
                       {service.title}
                     </h3>
                     <p className="text-white/80 text-sm md:text-base mb-6 group-hover:text-white transition-colors duration-300">
                       {service.description}
                     </p>
                     <motion.button
-                      className="mt-auto w-fit text-amber-300  text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
+                      className="mt-auto w-fit text-amber-500  text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
                       whileHover={{ x: 5 }}
                       whileTap={{ scale: 0.95 }}
                     >
