@@ -358,8 +358,8 @@ const MenuSection = () => {
             <button
               key={index}
               className="px-6 py-3 text-lg font-medium text-white
-               hover:text-[#da9360] focus:outline-none border-b-2 border-transparent
-                hover:border-[#da9360] transition"
+               hover:text-amber-500 focus:outline-none border-b-2 border-transparent
+                hover:border-amber-500 transition"
             >
               {section.category}
             </button>
