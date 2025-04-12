@@ -2251,8 +2251,8 @@ function Home() {
     },
     {
       id: 3,
-      title: "Wine Pairing",
-      description: "Discover perfect wine matches curated by our sommeliers.",
+      title: "Drink",
+      description: "Discover perfect drink matches curated by our sommeliers.",
       image: img3
     }
   ];
