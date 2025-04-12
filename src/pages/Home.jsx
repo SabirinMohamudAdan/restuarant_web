@@ -2416,7 +2416,7 @@ function Home() {
                 >
                   <span className="relative z-10">View Menu</span>
                   <motion.span 
-                    className="absolute inset-0 bg-[#c47e4a] rounded-full scale-0 hover:scale-100 origin-center"
+                    className="absolute inset-0 bg-amber-300 rounded-full scale-0 hover:scale-100 origin-center"
                     transition={{ duration: 0.25 }}
                   />
                 </motion.button>
