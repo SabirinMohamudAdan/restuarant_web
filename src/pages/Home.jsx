@@ -2354,7 +2354,8 @@ function Home() {
                   <motion.button
                     key={index}
                     onClick={() => setCurrentIndex(index)}
-                    className={`w-2.5 h-2.5 rounded-full ${currentIndex === index ? 'bg-[#da9360]' : 'bg-white/50'}`}
+                    className={`w-2.5 h-2.5 rounded-full ${currentIndex === index ? 
+                      'bg-amber-300' : 'bg-white/50'}`}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.8 }}
                     transition={{ duration: 0.3 }}
@@ -2364,7 +2365,7 @@ function Home() {
               </motion.div>
 
               <motion.p
-                className="text-[#da9360] text-2xl mt-2 mb-6 font-normal  "
+                className="text-amber-300 text-2xl mt-2 mb-6 font-normal  "
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.4 }}
@@ -2410,7 +2411,7 @@ function Home() {
                     boxShadow: "0 6px 12px rgba(218, 147, 96, 0.3)"
                   }}
                   whileTap={buttonAnim.tap}
-                  className="relative bg-[#da9360] text-white px-6 py-2
+                  className="relative bg-amber-300 text-white px-6 py-2
                    rounded-full overflow-hidden font-medium text-xl mt-8"
                 >
                   <span className="relative z-10">View Menu</span>
