@@ -2355,7 +2355,7 @@ function Home() {
                     key={index}
                     onClick={() => setCurrentIndex(index)}
                     className={`w-2.5 h-2.5 rounded-full ${currentIndex === index ? 
-                      'bg-amber-300' : 'bg-white/50'}`}
+                      'bg-amber-500' : 'bg-white/50'}`}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.8 }}
                     transition={{ duration: 0.3 }}
