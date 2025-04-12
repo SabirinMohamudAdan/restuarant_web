@@ -2434,7 +2434,7 @@ function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <p className="text-[#da9360] text-sm uppercase tracking-widest mb-2">What We Offer</p>
+              <p className="text-amber-300 text-sm uppercase tracking-widest mb-2">What We Offer</p>
               <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">Our Premium Services</h2>
             </motion.div>
             
@@ -2470,7 +2470,7 @@ function Home() {
                         variants={imageHover}
                       />
                     </motion.div>
-                    <h3 className="text-[#da9360] text-xl md:text-2xl font-medium mb-4 group-hover:text-white transition-colors duration-300">
+                    <h3 className="text-amber-300 text-xl md:text-2xl font-medium mb-4 group-hover:text-white transition-colors duration-300">
                       {service.title}
                     </h3>
                     <p className="text-white/80 text-sm md:text-base mb-6 group-hover:text-white transition-colors duration-300">
