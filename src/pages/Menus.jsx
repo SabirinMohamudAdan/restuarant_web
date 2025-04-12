@@ -330,7 +330,7 @@ const MenuSection = () => {
   ];
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-black w-full">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 
@@ -339,10 +339,10 @@ const MenuSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 uppercase tracking-wider mb-2">
+          <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider mb-2">
             O U R M E N U
           </h1>
-          <h2 className="text-xl md:text-2xl text-amber-600 italic">
+          <h2 className="text-xl md:text-2xl text-[#da9360] italic">
             Healthy & Tasty
           </h2>
         </motion.div>
@@ -357,7 +357,9 @@ const MenuSection = () => {
           {menuItems.map((section, index) => (
             <button
               key={index}
-              className="px-6 py-3 text-lg font-medium text-gray-700 hover:text-amber-600 focus:outline-none border-b-2 border-transparent hover:border-amber-500 transition"
+              className="px-6 py-3 text-lg font-medium text-white
+               hover:text-[#da9360] focus:outline-none border-b-2 border-transparent
+                hover:border-[#da9360] transition"
             >
               {section.category}
             </button>
@@ -377,7 +379,8 @@ const MenuSection = () => {
             >
               {/* Circular Image Container */}
               <motion.div 
-                className="w-48 h-48 rounded-full overflow-hidden border-4 border-amber-100 shadow-lg mb-6"
+                className="w-48 h-48 rounded-full overflow-hidden border-4
+                 border-amber-100 shadow-lg mb-6"
                 whileHover={{ rotate: 5, scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
@@ -390,13 +393,13 @@ const MenuSection = () => {
               
               {/* Food Info */}
               <div className="max-w-xs">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{item.name}</h3>
-                <p className="text-gray-600 mb-3">{item.description}</p>
-                <div className="text-amber-600 text-xl font-bold mb-4">{item.price}</div>
+                <h3 className="text-xl font-bold text-white mb-2">{item.name}</h3>
+                <p className="text-white mb-3">{item.description}</p>
+                <div className="text-[#da9360] text-xl font-bold mb-4">{item.price}</div>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-amber-500 hover:bg-amber-600 text-white py-2 px-6 rounded-full font-medium transition"
+                  className="bg-[#da9360] hover:bg-[#da9360] text-white py-2 px-6 rounded-full font-medium transition"
                 >
                   Add to Order
                 </motion.button>
