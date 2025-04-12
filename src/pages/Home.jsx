@@ -2136,6 +2136,7 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { useState, useEffect } from 'react';
 import Service from './Service';
 import SpecialsCard from './SpcialSer';
+import MenuSection from './Menus';
 
 // Animation Variants
 const slideIn = {
@@ -2495,7 +2496,7 @@ function Home() {
 
         
             <SpecialsCard/>
-        
+           <MenuSection/>
       </div>
     </>
   );
