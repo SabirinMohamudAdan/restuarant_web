@@ -399,7 +399,7 @@ const MenuSection = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-amber-500 hover:bg-[#da9360] text-white py-2 px-6 rounded-full font-medium transition"
+                  className="bg-amber-500 hover:bg-amber-500 text-white py-2 px-6 rounded-full font-medium transition"
                 >
                   Add to Order
                 </motion.button>
