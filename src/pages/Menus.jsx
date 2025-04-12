@@ -636,7 +636,7 @@ import img9 from "../image/m2.jpg";
 import img10 from "../image/d8.jpg";
 import img11 from "../image/d10.jpg";
 import img12 from "../image/sr1.jpg";
-import img13 from "../image/sr2.jpg";
+import img13 from "../image/sr2.png";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
