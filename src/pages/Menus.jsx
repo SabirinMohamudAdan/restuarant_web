@@ -633,7 +633,7 @@ import img7 from "../image/d3.jpg"; // Additional drink images
 import img8 from "../image/m3.jpg";
 
 import img9 from "../image/m2.jpg";
-
+import img10 from "../image/d8.jpg";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -681,6 +681,12 @@ const MenuSection = () => {
           description: "Our special house cocktail blend",
           price: "$48",
           image: img6
+        },
+        {
+          name: "Signature Cocktail",
+          description: "Our special house cocktail blend",
+          price: "$48",
+          image: img10
         },
         {
           name: "Classic Mojito",
