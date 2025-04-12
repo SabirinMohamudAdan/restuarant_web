@@ -63,7 +63,7 @@ const ReservationForm = () => {
               {/* Date and Time in one row */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="date">
+                  <label className="block text-white text-sm font-bold mb-2" htmlFor="date">
                     Date
                   </label>
                   <input
@@ -77,7 +77,7 @@ const ReservationForm = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="time">
+                  <label className="block text-white text-sm font-bold mb-2" htmlFor="time">
                     Time
                   </label>
                   <input
