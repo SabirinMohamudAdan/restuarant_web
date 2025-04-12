@@ -369,7 +369,9 @@ function Service() {
             Welcome To Delizus
           </h1>
           
-          <p className="text-xl italic text-gray-300 transform hover:translate-x-5 transition-transform duration-500 delay-75 ease-out">
+          <p className="text-xl italic text-[#da9360]
+           transform hover:translate-x-5 transition-transform duration-500 
+           delay-75 ease-out">
             The Art of Cooking
           </p>
           
