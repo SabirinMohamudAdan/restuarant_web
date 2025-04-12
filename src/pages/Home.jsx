@@ -2497,6 +2497,7 @@ function Home() {
         
             <SpecialsCard/>
            <MenuSection/>
+           
       </div>
     </>
   );
