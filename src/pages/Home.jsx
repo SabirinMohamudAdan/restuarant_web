@@ -2138,6 +2138,7 @@ import Service from './Service';
 import SpecialsCard from './SpcialSer';
 import MenuSection from './Menus';
 import ReservationForm from './Booking';
+import EventsSection from './Events';
 
 // Animation Variants
 const slideIn = {
@@ -2499,6 +2500,7 @@ function Home() {
             <SpecialsCard/>
            <MenuSection/>
            <ReservationForm/>
+           <EventsSection/>
       </div>
     </>
   );
