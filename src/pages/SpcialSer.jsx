@@ -170,7 +170,7 @@ const SpecialsCard = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white uppercase font-serif tracking-wider mb-2">
-            Chef's Specialties
+          Today's Special
           </h2>
           <motion.p 
             className="text-amber-200 italic text-xl"
@@ -215,7 +215,8 @@ const SpecialsCard = () => {
                 y: -10,
                 transition: { type: "spring", stiffness: 300 }
               }}
-              className=" bg-opacity-90 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden relative border border-white/20"
+              className=" bg-opacity-90 backdrop-blur-sm rounded-2xl shadow-lg
+               overflow-hidden relative border border-white/20"
             >
               {/* Food Image with Hover Effect */}
               <div className="h-56 overflow-hidden relative">
