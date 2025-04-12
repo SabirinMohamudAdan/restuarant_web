@@ -440,7 +440,7 @@ function Service() {
         {/* Content Section - Refined typography */}
         <div className="w-full lg:w-[48%] space-y-8 transform -translate-x-10 opacity-0 animate-slide-in-left">
           <header className="space-y-4">
-            <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold tracking-[0.25em] text-white transform hover:translate-x-3 transition-transform duration-500 ease-out">
+            <h1 className="text-3xl md:text-3xl xl:text-3xl font-bold tracking-[0.1em] text-white transform hover:translate-x-3 transition-transform duration-500 ease-out">
               W E L C O M E   T O   D E L I Z U S
             </h1>
             <h2 className="text-2xl md:text-3xl font-light italic text-[#da9360] tracking-widest transform hover:translate-x-4 transition-transform duration-500 delay-100 ease-out">
