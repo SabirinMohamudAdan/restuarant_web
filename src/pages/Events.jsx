@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import event1 from "../image/e1.jpg";
+import event1 from "../image/ve1.mp4";
 import event2 from "../image/e2.jpg";
 import event3 from "../image/e2.jpg";
 
