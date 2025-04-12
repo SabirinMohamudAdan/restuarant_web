@@ -634,7 +634,7 @@ import img8 from "../image/m3.jpg";
 
 import img9 from "../image/m2.jpg";
 import img10 from "../image/d8.jpg";
-import img11 from "../image/d4.jpg";
+import img11 from "../image/d10.jpg";
 
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
