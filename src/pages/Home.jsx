@@ -2365,7 +2365,7 @@ function Home() {
               </motion.div>
 
               <motion.p
-                className="text-amber-300 text-2xl mt-2 mb-6 font-normal  "
+                className="text-amber-500 text-2xl mt-2 mb-6 font-normal  "
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.4 }}
@@ -2411,12 +2411,12 @@ function Home() {
                     boxShadow: "0 6px 12px rgba(218, 147, 96, 0.3)"
                   }}
                   whileTap={buttonAnim.tap}
-                  className="relative bg-amber-300 text-white px-6 py-2
+                  className="relative bg-amber-500 text-white px-6 py-2
                    rounded-full overflow-hidden font-medium text-xl mt-8"
                 >
                   <span className="relative z-10">View Menu</span>
                   <motion.span 
-                    className="absolute inset-0 bg-amber-300 rounded-full scale-0 hover:scale-100 origin-center"
+                    className="absolute inset-0 bg-amber-500 rounded-full scale-0 hover:scale-100 origin-center"
                     transition={{ duration: 0.25 }}
                   />
                 </motion.button>
@@ -2434,7 +2434,7 @@ function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <p className="text-amber-300 text-sm uppercase tracking-widest mb-2">What We Offer</p>
+              <p className="text-amber-500 text-sm uppercase tracking-widest mb-2">What We Offer</p>
               <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">Our Premium Services</h2>
             </motion.div>
             
