@@ -750,12 +750,12 @@ const MenuSection = () => {
         >
           <button
             onClick={() => setActiveCategory("MAINS")}
-            className={`px-6 py-3 text-lg font-medium transition
+            className={`px-2 py-3 text-lg font-medium transition
               ${activeCategory === "MAINS" 
                 ? 'text-amber-500 border-b-2 border-amber-500' 
                 : 'text-white hover:text-amber-400'}`}
           >
-            ALL MENU
+            
           </button>
           {menuItems.map((section, index) => (
             <button
