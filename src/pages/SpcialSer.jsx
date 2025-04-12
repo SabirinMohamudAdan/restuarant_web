@@ -173,12 +173,12 @@ const SpecialsCard = () => {
           Today's Special
           </h2>
           <motion.p 
-            className="text-amber-200 italic text-xl"
+            className="text-[#da9360] italic text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Crafted with passion, served with perfection
+           Fresh and delicious
           </motion.p>
         </motion.div>
 
@@ -241,7 +241,7 @@ const SpecialsCard = () => {
                     </span>
                   )}
                   {item.premium && (
-                    <span className="inline-block bg-amber-500 text-white text-xs px-3 py-1 rounded-full shadow-md">
+                    <span className="inline-block bg-[#da9360] text-white text-xs px-3 py-1 rounded-full shadow-md">
                       Premium
                     </span>
                   )}

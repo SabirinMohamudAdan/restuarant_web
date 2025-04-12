@@ -458,7 +458,8 @@ function Service() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="bg-transparent border-2 border-[#da9360] text-[#da9360] hover:bg-[#da9360] hover:text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
+            <button className="bg-transparent border-2 border-[#da9360] 
+            text-[#da9360] hover:bg-[#da9360] hover:text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
               OUR MENU
             </button>
             <button className="bg-[#da9360] hover:bg-[#da9360]/90 text-white text-lg font-semibold py-3 px-8 rounded-none transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out uppercase tracking-widest">
