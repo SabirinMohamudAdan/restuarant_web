@@ -2392,7 +2392,7 @@ function Home() {
                   whileHover="hover"
                   whileTap="tap"
                   variants={buttonAnim}
-                  className="relative bg-transparent text-white px-6 py-2
+                  className="relative bg-transparent text-white  px-10 py-4 
                    border-2 border-white rounded-full group overflow-hidden text-xl mt-8"
                 >
                   <span className="relative z-10 font-medium">Book Now</span>
