@@ -2360,7 +2360,7 @@ function Home() {
               </motion.div>
 
               <motion.p
-                className="text-[#da9360] text-xl mt-2 mb-6"
+                className="text-[#da9360] text-2xl mt-2 mb-6 font-normal  "
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.4 }}
