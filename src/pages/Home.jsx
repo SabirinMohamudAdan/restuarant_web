@@ -2411,7 +2411,7 @@ function Home() {
                     boxShadow: "0 6px 12px rgba(218, 147, 96, 0.3)"
                   }}
                   whileTap={buttonAnim.tap}
-                  className="relative bg-amber-500 text-white px-6 py-2
+                  className="relative bg-amber-500 text-white px-10 py-4 
                    rounded-full overflow-hidden font-medium text-xl mt-8"
                 >
                   <span className="relative z-10">View Menu</span>
