@@ -35,7 +35,7 @@ function Header() {
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
   </svg>
   Resto & cafe
-  <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+  <svg className="w-5 h-5  text-[#da9360]" fill="currentColor" viewBox="0 0 20 20">
     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0z" clipRule="evenodd" />
   </svg>
 </p>
