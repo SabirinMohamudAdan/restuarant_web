@@ -50,7 +50,7 @@ function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white hover:text-amber-300 font-medium transition-colors"
+                className="text-white hover:text-amber-500 font-medium transition-colors"
               >
                 {link.name}
               </a>
