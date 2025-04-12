@@ -189,14 +189,7 @@ const EventsSection = () => {
                     <span>{event.time}</span>
                   </div>
                   <p className="text-gray-600 mb-6">{event.description}</p>
-                  <motion.button
-                    variants={buttonVariants}
-                    whileHover="hover"
-                    whileTap="tap"
-                    className="w-full md:w-auto bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white py-3 px-8 rounded-lg font-medium transition-all shadow-lg"
-                  >
-                    {event.cta}
-                  </motion.button>
+                  {/*  */}
                 </div>
               </div>
             </motion.div>
