@@ -21,7 +21,7 @@ function Header() {
           {/* Logo */}
           <div className="flex items-center ">
             <h1 href="/" className="font-bold text-white text-4xl ">
-              DELI <span className='text-amber-500'>Z</span>US
+              SAPRI <span className='text-amber-500'>N</span>AA
               {/* <p className="text-[15px] ml-6">
   <span className="text-gray-500 mr-1 text-4xl">-</span>
   Resto & cafe
