@@ -581,7 +581,7 @@ const EventsSection = () => {
     <div 
       className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), url(${bgImage})`,
+        backgroundImage: `linear-gradient(rgb(0, 0, 0), url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
