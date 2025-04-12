@@ -2477,7 +2477,7 @@ function Home() {
                       {service.description}
                     </p>
                     <motion.button
-                      className="mt-auto w-fit text-[#da9360]  text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
+                      className="mt-auto w-fit text-amber-300  text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
                       whileHover={{ x: 5 }}
                       whileTap={{ scale: 0.95 }}
                     >
