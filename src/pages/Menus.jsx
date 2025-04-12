@@ -342,7 +342,7 @@ const MenuSection = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider mb-2">
             O U R M E N U
           </h1>
-          <h2 className="text-xl md:text-2xl text-[#da9360] italic">
+          <h2 className="text-xl md:text-2xl text-amber-500 italic">
             Healthy & Tasty
           </h2>
         </motion.div>
