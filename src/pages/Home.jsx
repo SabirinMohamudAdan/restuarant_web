@@ -2445,7 +2445,8 @@ function Home() {
                   className="group"
                 >
                   <motion.div
-                    className="h-[500px] border border-[#da9360]/30 rounded-lg bg-black/80 p-6 overflow-hidden flex flex-col"
+                    className="h-[500px] border border-[#da9360]/30 rounded-lg
+                     bg-black/80 p-6 overflow-hidden flex flex-col"
                     whileHover={{ 
                       borderColor: "#da9360",
                       boxShadow: "0 10px 25px rgba(218, 147, 96, 0.2)",
@@ -2471,7 +2472,7 @@ function Home() {
                       {service.description}
                     </p>
                     <motion.button
-                      className="mt-auto w-fit text-white text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
+                      className="mt-auto w-fit text-[#da9360]  text-sm border-b border-transparent hover:border-[#da9360] pb-1 transition-all duration-300"
                       whileHover={{ x: 5 }}
                       whileTap={{ scale: 0.95 }}
                     >
