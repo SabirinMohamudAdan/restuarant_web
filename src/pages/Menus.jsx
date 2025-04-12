@@ -395,11 +395,11 @@ const MenuSection = () => {
               <div className="max-w-xs">
                 <h3 className="text-xl font-bold text-white mb-2">{item.name}</h3>
                 <p className="text-white mb-3">{item.description}</p>
-                <div className="text-[#da9360] text-xl font-bold mb-4">{item.price}</div>
+                <div className="text-amber-500 text-xl font-bold mb-4">{item.price}</div>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#da9360] hover:bg-[#da9360] text-white py-2 px-6 rounded-full font-medium transition"
+                  className="bg-amber-500 hover:bg-[#da9360] text-white py-2 px-6 rounded-full font-medium transition"
                 >
                   Add to Order
                 </motion.button>
