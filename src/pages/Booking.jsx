@@ -53,8 +53,8 @@ const ReservationForm = () => {
              uppercase tracking-wider mb-2  ">
               BOOK A TABLE
             </h1>
-            <h2 className="text-xl text-[#da9360] font-medium">Reservation</h2>
-            <div className="w-20 h-1 bg-[#da9360] mx-auto mt-4"></div>
+            <h2 className="text-xl text-amber-500 font-medium">Reservation</h2>
+            <div className="w-20 h-1 bg-amber-500 mx-auto mt-4"></div>
           </div>
 
           {/* Form */}
@@ -168,7 +168,7 @@ const ReservationForm = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full bg-[#da9360] hoverbg-[#da9360] text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-300"
+                className="w-full bg-amber-500 hoverbg-[#da9360] text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-300"
               >
                 RESERVE NOW
               </motion.button>
