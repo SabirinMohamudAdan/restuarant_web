@@ -218,8 +218,8 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import event1Video from "../image/ve1.mp4";
-import event2Video from "../image/ve1.mp4"; // Assuming you have these video files
-import event3Video from "../image/ve1.mp4";
+import event2Video from "../image/ve2.mp4"; // Assuming you have these video files
+import event3Video from "../image/ve3.mp4";
 
 const EventsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
