@@ -6,11 +6,11 @@ function Header() {
 
   const navLinks = [
     { name: 'Home /' , href: '/' },
-    { name: 'Menu /', href: '/menu' },
-    { name: 'About Us /', href: '/about' },
-    { name: 'Book /', href: '/book' },
-    { name: 'Event /', href: '/event' },
-    { name: 'Blog /', href: '/blog' },
+    { name: 'Menu ', href: '/menu' },
+    { name: 'About Us ', href: '/about' },
+    { name: 'Book ', href: '/book' },
+    { name: 'Event ', href: '/event' },
+    { name: 'Blog ', href: '/blog' },
     { name: 'Contact ', href: '/contact' },
   ]
 
