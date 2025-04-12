@@ -215,7 +215,7 @@ const SpecialsCard = () => {
                 y: -10,
                 transition: { type: "spring", stiffness: 300 }
               }}
-              className="bg-white bg-opacity-90 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden relative border border-white/20"
+              className=" bg-opacity-90 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden relative border border-white/20"
             >
               {/* Food Image with Hover Effect */}
               <div className="h-56 overflow-hidden relative">
