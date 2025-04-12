@@ -168,7 +168,7 @@ const ReservationForm = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-300"
+                className="w-full bg-[#da9360] hoverbg-[#da9360] text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-300"
               >
                 RESERVE NOW
               </motion.button>
