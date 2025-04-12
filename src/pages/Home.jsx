@@ -2388,7 +2388,7 @@ function Home() {
                   whileTap="tap"
                   variants={buttonAnim}
                   className="relative bg-transparent text-white px-6 py-2
-                   border-2 border-white rounded-full group overflow-hidden text-2xl"
+                   border-2 border-white rounded-full group overflow-hidden text-xl"
                 >
                   <span className="relative z-10 font-medium">Book Now</span>
                   <motion.span
@@ -2407,7 +2407,7 @@ function Home() {
                   }}
                   whileTap={buttonAnim.tap}
                   className="relative bg-[#da9360] text-white px-6 py-2
-                   rounded-full overflow-hidden font-medium text-2xl"
+                   rounded-full overflow-hidden font-medium text-xl"
                 >
                   <span className="relative z-10">View Menu</span>
                   <motion.span
