@@ -265,151 +265,151 @@
 
 // export default MenuSection;
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import img1 from "../image/m1.jpg";
-import img2 from "../image/m2.jpg";
-import img3 from "../image/m3.jpg";
-import img4 from "../image/m4.jpg";
-import img5 from "../image/m5.jpg";
-import img6 from "../image/m6.jpg";
+// import React from 'react';
+// import { motion } from 'framer-motion';
+// import img1 from "../image/m1.jpg";
+// import img2 from "../image/m2.jpg";
+// import img3 from "../image/m3.jpg";
+// import img4 from "../image/m4.jpg";
+// import img5 from "../image/m5.jpg";
+// import img6 from "../image/m6.jpg";
 
-const MenuSection = () => {
-  const menuItems = [
-    {
-      category: "MAINS",
-      items: [
-        {
-          name: "Chicken Crispy Roll",
-          description: "Crispy fried chicken rolls with special dipping sauce",
-          price: "$86",
-          image: img1
-        },
-        {
-          name: "Roasted Chicken",
-          description: "Herb-roasted free-range chicken with vegetables",
-          price: "$55",
-          image: img2
-        }
-      ]
-    },
-    {
-      category: "STARTER",
-      items: [
-        {
-          name: "Baked Crab Cheese",
-          description: "Lump crab meat baked with three cheeses",
-          price: "$89",
-          image: img3
-        },
-        {
-          name: "Cheese Shrimp Roll",
-          description: "Crispy shrimp rolls with melted cheese",
-          price: "$42",
-          image: img4
-        }
-      ]
-    },
-    {
-      category: "DRINKS",
-      items: [
-        {
-          name: "Crispy Squid",
-          description: "Golden fried squid with garlic aioli",
-          price: "$54",
-          image: img5
-        },
-        {
-          name: "Signature Cocktail",
-          description: "Our special house cocktail blend",
-          price: "$48",
-          image: img6
-        }
-      ]
-    }
-  ];
+// const MenuSection = () => {
+//   const menuItems = [
+//     {
+//       category: "MAINS",
+//       items: [
+//         {
+//           name: "Chicken Crispy Roll",
+//           description: "Crispy fried chicken rolls with special dipping sauce",
+//           price: "$86",
+//           image: img1
+//         },
+//         {
+//           name: "Roasted Chicken",
+//           description: "Herb-roasted free-range chicken with vegetables",
+//           price: "$55",
+//           image: img2
+//         }
+//       ]
+//     },
+//     {
+//       category: "STARTER",
+//       items: [
+//         {
+//           name: "Baked Crab Cheese",
+//           description: "Lump crab meat baked with three cheeses",
+//           price: "$89",
+//           image: img3
+//         },
+//         {
+//           name: "Cheese Shrimp Roll",
+//           description: "Crispy shrimp rolls with melted cheese",
+//           price: "$42",
+//           image: img4
+//         }
+//       ]
+//     },
+//     {
+//       category: "DRINKS",
+//       items: [
+//         {
+//           name: "Crispy Squid",
+//           description: "Golden fried squid with garlic aioli",
+//           price: "$54",
+//           image: img5
+//         },
+//         {
+//           name: "Signature Cocktail",
+//           description: "Our special house cocktail blend",
+//           price: "$48",
+//           image: img6
+//         }
+//       ]
+//     }
+//   ];
 
-  return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-black w-full">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-12"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider mb-2">
-            O U R M E N U
-          </h1>
-          <h2 className="text-xl md:text-2xl text-amber-500 italic">
-            Healthy & Tasty
-          </h2>
-        </motion.div>
+//   return (
+//     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-black w-full">
+//       <div className="max-w-7xl mx-auto">
+//         {/* Header */}
+//         <motion.div 
+//           initial={{ opacity: 0, y: -20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.6 }}
+//           className="text-center mb-12"
+//         >
+//           <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider mb-2">
+//             O U R M E N U
+//           </h1>
+//           <h2 className="text-xl md:text-2xl text-amber-500 italic">
+//             Healthy & Tasty
+//           </h2>
+//         </motion.div>
 
-        {/* Category Tabs */}
-        <motion.div 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
-          className="flex justify-center mb-12 border-b border-gray-200"
-        >
-          {menuItems.map((section, index) => (
-            <button
-              key={index}
-              className="px-6 py-3 text-lg font-medium text-white
-               hover:text-amber-500 focus:outline-none border-b-2 border-transparent
-                hover:border-amber-500 transition"
-            >
-              {section.category}
-            </button>
-          ))}
-        </motion.div>
+//         {/* Category Tabs */}
+//         <motion.div 
+//           initial={{ opacity: 0 }}
+//           animate={{ opacity: 1 }}
+//           transition={{ delay: 0.2, duration: 0.6 }}
+//           className="flex justify-center mb-12 border-b border-gray-200"
+//         >
+//           {menuItems.map((section, index) => (
+//             <button
+//               key={index}
+//               className="px-6 py-3 text-lg font-medium text-white
+//                hover:text-amber-500 focus:outline-none border-b-2 border-transparent
+//                 hover:border-amber-500 transition"
+//             >
+//               {section.category}
+//             </button>
+//           ))}
+//         </motion.div>
 
-        {/* Menu Items */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          {menuItems.flatMap(section => section.items).map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 * index, duration: 0.5 }}
-              whileHover={{ y: -5 }}
-              className="flex flex-col items-center text-center"
-            >
-              {/* Circular Image Container */}
-              <motion.div 
-                className="w-48 h-48 rounded-full overflow-hidden border-4
-                 border-amber-100 shadow-lg mb-6"
-                whileHover={{ rotate: 5, scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <img 
-                  src={item.image} 
-                  alt={item.name}
-                  className="w-full h-full object-cover"
-                />
-              </motion.div>
+//         {/* Menu Items */}
+//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+//           {menuItems.flatMap(section => section.items).map((item, index) => (
+//             <motion.div
+//               key={index}
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.1 * index, duration: 0.5 }}
+//               whileHover={{ y: -5 }}
+//               className="flex flex-col items-center text-center"
+//             >
+//               {/* Circular Image Container */}
+//               <motion.div 
+//                 className="w-48 h-48 rounded-full overflow-hidden border-4
+//                  border-amber-100 shadow-lg mb-6"
+//                 whileHover={{ rotate: 5, scale: 1.05 }}
+//                 transition={{ type: "spring", stiffness: 300 }}
+//               >
+//                 <img 
+//                   src={item.image} 
+//                   alt={item.name}
+//                   className="w-full h-full object-cover"
+//                 />
+//               </motion.div>
               
-              {/* Food Info */}
-              <div className="max-w-xs">
-                <h3 className="text-xl font-bold text-white mb-2">{item.name}</h3>
-                <p className="text-white mb-3">{item.description}</p>
-                <div className="text-amber-500 text-xl font-bold mb-4">{item.price}</div>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-amber-500 hover:bg-amber-500 text-white py-2 px-6 rounded-full font-medium transition"
-                >
-                  Add to Order
-                </motion.button>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
+//               {/* Food Info */}
+//               <div className="max-w-xs">
+//                 <h3 className="text-xl font-bold text-white mb-2">{item.name}</h3>
+//                 <p className="text-white mb-3">{item.description}</p>
+//                 <div className="text-amber-500 text-xl font-bold mb-4">{item.price}</div>
+//                 <motion.button
+//                   whileHover={{ scale: 1.05 }}
+//                   whileTap={{ scale: 0.95 }}
+//                   className="bg-amber-500 hover:bg-amber-500 text-white py-2 px-6 rounded-full font-medium transition"
+//                 >
+//                   Add to Order
+//                 </motion.button>
+//               </div>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-export default MenuSection;
+// export default MenuSection;
