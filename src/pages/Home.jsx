@@ -2135,6 +2135,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'; 
 import { useState, useEffect } from 'react';
 import Service from './Service';
+import SpecialsCard from './SpcialSer';
 
 // Animation Variants
 const slideIn = {
@@ -2486,6 +2487,11 @@ function Home() {
 
           <div className='mt-20'>
             <Service/>
+          </div>
+
+
+          <div className='mt-20'>
+            <SpecialsCard/>
           </div>
         </div>
       </div>
