@@ -49,12 +49,12 @@ const ReservationForm = () => {
         >
           {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-800
+            <h1 className="text-3xl font-bold text-[#da9360]
              uppercase tracking-wider mb-2  ">
               BOOK A TABLE
             </h1>
-            <h2 className="text-xl text-amber-600 font-medium">Reservation</h2>
-            <div className="w-20 h-1 bg-amber-500 mx-auto mt-4"></div>
+            <h2 className="text-xl text-[#da9360] font-medium">Reservation</h2>
+            <div className="w-20 h-1 bg-[#da9360] mx-auto mt-4"></div>
           </div>
 
           {/* Form */}
