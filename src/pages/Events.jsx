@@ -611,7 +611,7 @@ const EventsSection = () => {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 0.3 }}
-            className="w-24 h-1 bg-amber-400 mx-auto mb-4"
+            className="w-24 h-1 bg-amber-500 mx-auto mb-4"
           />
           <motion.h2 
             className="text-xl md:text-2xl text-amber-300 italic"
