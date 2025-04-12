@@ -690,11 +690,18 @@ const MenuSection = () => {
           price: "$48",
           image: img10
         },
+
         {
           name: "Classic Mojito",
           description: "Refreshing mint lime cocktail",
           price: "$42",
           image: img7
+        },
+        {
+          name: "Classic Mojito",
+          description: "Refreshing mint lime cocktail",
+          price: "$42",
+          image: img11
         },
         ...(showMoreDrinks ? [
           {
