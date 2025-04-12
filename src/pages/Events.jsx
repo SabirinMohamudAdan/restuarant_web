@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import event1 from "../image/event1.jpg";
-import event2 from "../image/event2.jpg";
-import event3 from "../image/event3.jpg";
+import event1 from "../image/ve1.mp4";
+import event2 from "../image/e2.jpg";
+import event3 from "../image/e1.jpg";
 
 const EventsSection = () => {
   const events = [
