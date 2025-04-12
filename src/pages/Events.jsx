@@ -614,7 +614,7 @@ const EventsSection = () => {
             className="w-24 h-1 bg-amber-500 mx-auto mb-4"
           />
           <motion.h2 
-            className="text-xl md:text-2xl text-amber-300 italic"
+            className="text-xl md:text-2xl text-amber-500 italic"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
