@@ -2137,6 +2137,7 @@ import { useState, useEffect } from 'react';
 import Service from './Service';
 import SpecialsCard from './SpcialSer';
 import MenuSection from './Menus';
+import ReservationForm from './Booking';
 
 // Animation Variants
 const slideIn = {
@@ -2497,7 +2498,7 @@ function Home() {
         
             <SpecialsCard/>
            <MenuSection/>
-           
+           <ReservationForm/>
       </div>
     </>
   );
