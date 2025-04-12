@@ -155,7 +155,7 @@ const SpecialsCard = () => {
     >
       {/* Dark overlay with subtle animation */}
       <motion.div 
-        className="absolute inset-0 bg-black"
+        className="absolute inset-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.5 }}
         transition={{ duration: 1 }}
