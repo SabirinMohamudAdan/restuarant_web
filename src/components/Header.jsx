@@ -22,13 +22,7 @@ function Header() {
           <div className="flex items-center ">
             <h1 href="/" className="font-bold text-white text-4xl ">
               SAPRI <span className='text-amber-500'>N</span>AA
-              {/* <p className="text-[15px] ml-6">
-  <span className="text-gray-500 mr-1 text-4xl">-</span>
-  Resto & cafe
-  <span className="text-gray-500 mr-1 text-4xl">-</span>
-</p>
-
-*/}
+            
 
 <p className="text-[15px] ml-2 flex items-center gap-2">
   <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
