@@ -628,9 +628,10 @@ import img2 from "../image/m2.jpg";
 import img3 from "../image/m3.jpg";
 import img4 from "../image/m4.jpg";
 import img5 from "../image/m5.jpg";
-import img6 from "../image/m6.jpg";
-import img7 from "../image/m4.jpg"; // Additional drink images
+import img6 from "../image/d5.jpg";
+import img7 from "../image/d3.jpg"; // Additional drink images
 import img8 from "../image/m3.jpg";
+
 import img9 from "../image/m2.jpg";
 
 const MenuSection = () => {
