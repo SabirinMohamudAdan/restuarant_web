@@ -2369,7 +2369,7 @@ function Home() {
               </motion.p>
               
               <motion.div 
-                className="flex justify-center gap-4"
+                className="flex justify-center gap-4 mt-0"
                 initial="hidden"
                 animate="visible"
                 variants={{
