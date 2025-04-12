@@ -49,7 +49,7 @@ const ReservationForm = () => {
         >
           {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-[#da9360]
+            <h1 className="text-3xl font-bold text-white
              uppercase tracking-wider mb-2  ">
               BOOK A TABLE
             </h1>
