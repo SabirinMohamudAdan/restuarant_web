@@ -241,7 +241,7 @@ const SpecialsCard = () => {
                     </span>
                   )}
                   {item.premium && (
-                    <span className="inline-block bg-[#da9360] text-white text-xs px-3 py-1 rounded-full shadow-md">
+                    <span className="inline-block bg-amber-500 text-white text-xs px-3 py-1 rounded-full shadow-md">
                       Premium
                     </span>
                   )}
