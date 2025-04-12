@@ -94,7 +94,7 @@ const ReservationForm = () => {
 
               {/* Persons */}
               <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="persons">
+                <label className="block text-white text-sm font-bold mb-2" htmlFor="persons">
                   Persons
                 </label>
                 <select
@@ -116,7 +116,7 @@ const ReservationForm = () => {
 
               {/* Name and Email */}
               <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+                <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
                   Your Name
                 </label>
                 <input
@@ -131,7 +131,7 @@ const ReservationForm = () => {
               </div>
 
               <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+                <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
                   Your Email
                 </label>
                 <input
@@ -147,7 +147,7 @@ const ReservationForm = () => {
 
               {/* Message */}
               <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+                <label className="block text-white text-sm font-bold mb-2" htmlFor="message">
                   Any Special Requests?
                 </label>
                 <textarea
