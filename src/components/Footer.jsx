@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center">
           {/* Logo and Tagline */}
           <div className="mb-8">
-            <h2 className="text-4xl font-bold tracking-wider mb-2">DELIZUS</h2>
-            <p className="text-xl text-amber-400">— RESTO & CAFE —</p>
+            <h2 className="text-4xl font-bold tracking-wider mb-2">SAPRINAA</h2>
+            <p className="text-xl text-amber-400">— REST & CAFE —</p>
           </div>
 
           {/* Social Icons */}
