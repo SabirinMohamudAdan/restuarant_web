@@ -2502,6 +2502,7 @@ function Home() {
            <MenuSection/>
            <ReservationForm/>
            <EventsSection/>
+           <
       </div>
     </>
   );
