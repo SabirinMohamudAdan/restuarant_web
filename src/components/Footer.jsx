@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="mb-8">
             <h2 className="text-4xl font-bold tracking-wider mb-2">SAPRINAA</h2>
-            <p className="text-xl text-amber-400"><span></span> REST & CAFE —</p>
+            <p className="text-xl text-amber-400"><span className='text-white'>—</span> REST & CAFE —</p>
           </div>
 
           {/* Social Icons */}
