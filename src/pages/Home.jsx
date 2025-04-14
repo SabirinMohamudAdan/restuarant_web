@@ -2223,7 +2223,8 @@ const buttonAnim = {
 function Home() {
   const texts = [
     "ENJOY YOUR DINNER",
-    "EXQUISITE ATMOSPHERE"
+    "EXQUISITE ATMOSPHERE",
+    "Cunta macaan iyo Jawi dagan"
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
