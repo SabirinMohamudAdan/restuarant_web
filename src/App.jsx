@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import MenuSection from './pages/Menus';
 import EventsSection from './pages/Events';
 import Header from './components/Header';
+import { Route, Router, Routes } from 'react-router-dom';
 // import Header from './Header'; // Header-kaaga
 // import Home from './pages/Home';
 // import Menu from './pages/Menu';
