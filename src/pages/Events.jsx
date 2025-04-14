@@ -484,32 +484,32 @@ const EventsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const videoRefs = useRef([]);
   
-  const events = [
-    {
-      title: "Barbeque Party",
-      date: "April 20, 2025",
-      time: "12:00 PM - 1:30 PM",
-      description: "Join us for our famous backyard BBQ with live grilling stations",
-      video: event1Video,
-      cta: "Reserve Your Spot"
-    },
-    {
-      title: "Friday Jazz Night",
-      date: "April 21, 2025",
-      time: "7:00 PM - 10:00 PM",
-      description: "Smooth jazz evenings with local musicians and craft cocktails",
-      video: event2Video,
-      cta: "Get Tickets"
-    },
-    {
-      title: "Romantic Evening",
-      date: "April 22, 2025",
-      time: "6:30 PM - 9:30 PM",
-      description: "Special couples menu with candlelit ambiance and wine pairing",
-      video: event3Video,
-      cta: "Book Table"
-    }
-  ];
+  // const events = [
+  //   {
+  //     title: "Barbeque Party",
+  //     date: "April 20, 2025",
+  //     time: "12:00 PM - 1:30 PM",
+  //     description: "Join us for our famous backyard BBQ with live grilling stations",
+  //     video: event1Video,
+  //     cta: "Reserve Your Spot"
+  //   },
+  //   {
+  //     title: "Friday Jazz Night",
+  //     date: "April 21, 2025",
+  //     time: "7:00 PM - 10:00 PM",
+  //     description: "Smooth jazz evenings with local musicians and craft cocktails",
+  //     video: event2Video,
+  //     cta: "Get Tickets"
+  //   },
+  //   {
+  //     title: "Romantic Evening",
+  //     date: "April 22, 2025",
+  //     time: "6:30 PM - 9:30 PM",
+  //     description: "Special couples menu with candlelit ambiance and wine pairing",
+  //     video: event3Video,
+  //     cta: "Book Table"
+  //   }
+  // ];
 
   const nextSlide = () => {
     if (videoRefs.current[currentIndex]) {
