@@ -511,6 +511,34 @@ const EventsSection = () => {
   //   }
   // ];
 
+
+  const events = [
+    {
+      title: "Xaflad Cunto Dhanaanada",
+      date: "20 Abriil 2025",
+      time: "Saacadaha Duhr ilaa 1:30 galabnimo",
+      description: "Ku soo dhowow xaflad cunto dhanaanada oo aad ku raaxaysan doonto cuntooyin la kariyo meel kasta",
+      video: event1Video,
+      cta: "Is-diiwaangeli Meeshaada"
+    },
+    {
+      title: "Habeen Muusiko iyo Suugaanta",
+      date: "21 Abriil 2025",
+      time: "Kadib Salaada Maghrib ilaa 10:00 habeennimo",
+      description: "Habeen madadaalo leh muusiko iyo suugaanta dhalinyarada",
+      video: event2Video,
+      cta: "Iibso Tikidkaaga"
+    },
+    {
+      title: "Habeen Qoyska",
+      date: "22 Abriil 2025",
+      time: "6:30 galabnimo - 9:30 habeennimo",
+      description: "Casharro gaar ah oo loogu talagalay qoysaska leh diyaarad macaan iyo cabitaan la cuno",
+      video: event3Video,
+      cta: "Diiwaan Gali Ballantaada"
+    }
+  ];
+
   const nextSlide = () => {
     if (videoRefs.current[currentIndex]) {
       videoRefs.current[currentIndex].pause();
