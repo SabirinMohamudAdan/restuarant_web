@@ -643,6 +643,7 @@ import img16 from "../image/cup5.jpg";
 import img17 from "../image/cup3.jpg";
 import img18 from "../image/cup10.jpg";
 import img19 from "../image/cup2.jpg";
+import img20 from "../image/cup4.jpg";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -707,8 +708,8 @@ const MenuSection = () => {
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
-          price: "$9",
-          image: img14
+          price: "$5",
+          image: img20
         },
         {
           name: "Baked Crab Cheese",
