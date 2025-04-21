@@ -522,10 +522,10 @@ const EventsSection = () => {
       cta: "Is-diiwaangeli Meeshaada"
     },
     {
-      title: "Habeen Muusiko iyo Suugaanta",
+      title: "Habeen Madadaalada",
       date: "21 Abriil 2025",
       time: "Kadib Salaada Maghrib ilaa 10:00 habeennimo",
-      description: "Habeen madadaalo leh muusiko iyo suugaanta dhalinyarada",
+      description: "Habeen madadaalo leh oo loo gu tala galay  dhalinyarada",
       video: event2Video,
       cta: "Iibso Tikidkaaga"
     },
