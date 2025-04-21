@@ -712,8 +712,8 @@ const MenuSection = () => {
           image: img20
         },
         {
-          name: "Baked Crab Cheese",
-          description: "Lump crab meat baked with three cheeses",
+          name: "Cofee --",
+          description: "Cofee    with ",
           price: "$9",
           image: img18
         },
