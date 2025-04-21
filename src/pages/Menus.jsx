@@ -707,6 +707,18 @@ const MenuSection = () => {
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
+          price: "$9",
+          image: img18
+        },
+        {
+          name: "Baked Crab Cheese",
+          description: "Lump crab meat baked with three cheeses",
+          price: "$10",
+          image: img19
+        },
+        {
+          name: "Baked Crab Cheese",
+          description: "Lump crab meat baked with three cheeses",
           price: "$7",
           image: img15
         },
