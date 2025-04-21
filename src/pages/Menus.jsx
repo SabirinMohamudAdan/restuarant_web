@@ -692,13 +692,13 @@ const MenuSection = () => {
       category: "DRINKS",
       items: [
         {
-          name: "Signature Cocktail",
+          name: "Leomon",
           description: "Our special house cocktail blend",
           price: "$48",
           image: img6
         },
         {
-          name: "Signature Cocktail",
+          name: "Leomon Cocktail",
           description: "Our special house cocktail blend",
           price: "$48",
           image: img10
