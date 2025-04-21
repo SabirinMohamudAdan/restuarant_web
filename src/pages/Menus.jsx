@@ -700,8 +700,8 @@ const MenuSection = () => {
       category: "COFFEE",
       items: [
         {
-          name: "Baked Crab Cheese",
-          description: "Lump crab meat baked with three cheeses",
+          name: "Cool Coffee",
+          description: "Cofee  chocolate  with nice",
           price: "$9",
           image: img14
         },
