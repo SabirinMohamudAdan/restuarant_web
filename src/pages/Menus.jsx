@@ -637,6 +637,7 @@ import img10 from "../image/d8.jpg";
 import img11 from "../image/d10.jpg";
 import img12 from "../image/sr1.jpg";
 import img13 from "../image/sr2.png";
+import img14 from "../image/cup1.jpg";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -696,25 +697,25 @@ const MenuSection = () => {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
           price: "$89",
-          image: img3
+          image: img14
         },
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
           price: "$89",
-          image: img12
+          image: img14
         },
         {
           name: "Cheese Shrimp Roll",
           description: "Crispy shrimp rolls with melted cheese",
           price: "$42",
-          image: img4
+          image: img14
         },
         {
           name: "Fish burger with cheese",
           description: "Crispy shrimp rolls with melted cheese",
           price: "$42",
-          image: img13
+          image: img14
         }
       ]
     },
