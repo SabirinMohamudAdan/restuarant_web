@@ -681,7 +681,7 @@ const MenuSection = () => {
           image: img4
         },
         {
-          name: "Fish burger with chees",
+          name: "Fish burger with cheese",
           description: "Crispy shrimp rolls with melted cheese",
           price: "$42",
           image: img13
