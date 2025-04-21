@@ -514,7 +514,7 @@ const EventsSection = () => {
 
   const events = [
     {
-      title: "Xaflada  Gaar ah  ",
+      title: "Xafladaha  Gaar ah  ",
       date: "20 Abriil 2025",
       time: "Saacadaha Duhr ilaa 1:30 galabnimo",
       description: "Ku soo dhowow cunta macaan   oo aad ku raaxaysan doonto habka loo diyaariyey loona kariyey ",
