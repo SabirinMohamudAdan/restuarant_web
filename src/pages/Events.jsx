@@ -514,10 +514,10 @@ const EventsSection = () => {
 
   const events = [
     {
-      title: "Xaflad Cunto Dhanaanada",
+      title: "Xaflada  Gaar ah  ",
       date: "20 Abriil 2025",
       time: "Saacadaha Duhr ilaa 1:30 galabnimo",
-      description: "Ku soo dhowow xaflad cunto dhanaanada oo aad ku raaxaysan doonto cuntooyin la kariyo meel kasta",
+      description: "Ku soo dhowow cunta macaan   oo aad ku raaxaysan doonto habka loo diyaariyey loona kariyey ",
       video: event1Video,
       cta: "Is-diiwaangeli Meeshaada"
     },
