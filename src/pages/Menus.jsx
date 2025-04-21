@@ -696,25 +696,25 @@ const MenuSection = () => {
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
-          price: "$89",
+          price: "$9",
           image: img14
         },
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
-          price: "$89",
+          price: "$7",
           image: img14
         },
         {
           name: "Cheese Shrimp Roll",
           description: "Crispy shrimp rolls with melted cheese",
-          price: "$42",
+          price: "$8",
           image: img14
         },
         {
           name: "Fish burger with cheese",
           description: "Crispy shrimp rolls with melted cheese",
-          price: "$42",
+          price: "$12",
           image: img14
         }
       ]
