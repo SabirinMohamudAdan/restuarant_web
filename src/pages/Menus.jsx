@@ -706,38 +706,38 @@ const MenuSection = () => {
           image: img14
         },
         {
-          name: " Cofee",
+          name: " Chocolate Coffee",
           description: "Cofee  chocolate  with nice",
           price: "$5",
           image: img20
         },
         {
-          name: "Cofee --",
-          description: "Cofee    with ",
+          name: "Coffee --",
+          description: "Coffee    with ",
           price: "$9",
           image: img18
         },
         {
-          name: "Chocolate Coffee",
+          name: "Coffee",
           description: "Cofee  chocolate  with nice",
           price: "$10",
           image: img19
         },
         {
           name: "Baked Crab Cheese",
-          description: "Cofee  chocolate with hot",
+          description: "Coffee  chocolate with hot",
           price: "$7",
           image: img15
         },
         {
-          name: "Cofee --",
-          description: "Cofee    with nice",
+          name: "Coffee --",
+          description: "Coffee    with nice",
           price: "$8",
           image: img16
         },
         {
-          name: "Cofee--",
-          description: " Cool Cofee   with nice",
+          name: "Coffee--",
+          description: " Cool Coffee   with nice",
           price: "$12",
           image: img17
         }
