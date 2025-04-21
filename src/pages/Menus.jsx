@@ -711,7 +711,7 @@ const MenuSection = () => {
           image: img7
         },
         {
-          name: "Classic Mojito",
+          name: "Classic Chocolate",
           description: "Refreshing mint lime cocktail",
           price: "$42",
           image: img11
