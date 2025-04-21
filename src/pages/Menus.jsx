@@ -688,6 +688,36 @@ const MenuSection = () => {
         }
       ]
     },
+
+    {
+      category: "Coffee",
+      items: [
+        {
+          name: "Baked Crab Cheese",
+          description: "Lump crab meat baked with three cheeses",
+          price: "$89",
+          image: img3
+        },
+        {
+          name: "Baked Crab Cheese",
+          description: "Lump crab meat baked with three cheeses",
+          price: "$89",
+          image: img12
+        },
+        {
+          name: "Cheese Shrimp Roll",
+          description: "Crispy shrimp rolls with melted cheese",
+          price: "$42",
+          image: img4
+        },
+        {
+          name: "Fish burger with cheese",
+          description: "Crispy shrimp rolls with melted cheese",
+          price: "$42",
+          image: img13
+        }
+      ]
+    },
     {
       category: "DRINKS",
       items: [
