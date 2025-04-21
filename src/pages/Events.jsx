@@ -533,7 +533,7 @@ const EventsSection = () => {
       title: "Habeen Qoyska",
       date: "22 Abriil 2025",
       time: "6:30 galabnimo - 9:30 habeennimo",
-      description: "Casharro gaar ah oo loogu talagalay qoysaska leh diyaarad macaan iyo cabitaan la cuno",
+      description: "Casho gaar ah oo loogu talagalay qoysaska ",
       video: event3Video,
       cta: "Diiwaan Gali Ballantaada"
     }
