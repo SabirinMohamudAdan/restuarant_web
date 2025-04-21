@@ -730,8 +730,8 @@ const MenuSection = () => {
           image: img15
         },
         {
-          name: "Coffee --",
-          description: "Coffee    with nice",
+          name: "Chocolate Coffe",
+          description: "Coffee  chocolate  with nice",
           price: "$8",
           image: img16
         },
