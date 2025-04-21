@@ -713,7 +713,7 @@ const MenuSection = () => {
         },
         {
           name: "Coffee --",
-          description: "Coffee    with ",
+          description: " Hot Coffee  ",
           price: "$9",
           image: img18
         },
@@ -724,7 +724,7 @@ const MenuSection = () => {
           image: img19
         },
         {
-          name: "Baked Crab Cheese",
+          name: "Coffee",
           description: "Coffee  chocolate with hot",
           price: "$7",
           image: img15
