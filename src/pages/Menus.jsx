@@ -638,6 +638,9 @@ import img11 from "../image/d10.jpg";
 import img12 from "../image/sr1.jpg";
 import img13 from "../image/sr2.png";
 import img14 from "../image/cup1.jpg";
+import img15 from "../image/cup6.jpg";
+import img16 from "../image/cup5.jpg";
+import img17 from "../image/cup3.jpg";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -691,7 +694,7 @@ const MenuSection = () => {
     },
 
     {
-      category: "Coffee",
+      category: "COFFEE",
       items: [
         {
           name: "Baked Crab Cheese",
@@ -703,19 +706,19 @@ const MenuSection = () => {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
           price: "$7",
-          image: img14
+          image: img15
         },
         {
           name: "Cheese Shrimp Roll",
           description: "Crispy shrimp rolls with melted cheese",
           price: "$8",
-          image: img14
+          image: img16
         },
         {
           name: "Fish burger with cheese",
           description: "Crispy shrimp rolls with melted cheese",
           price: "$12",
-          image: img14
+          image: img17
         }
       ]
     },
