@@ -642,7 +642,7 @@ import img15 from "../image/cup8.jpg";
 import img16 from "../image/cup5.jpg";
 import img17 from "../image/cup3.jpg";
 import img18 from "../image/cup10.jpg";
-import img19 from "../image/cup9.jpg";
+import img19 from "../image/cup2.jpg";
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
