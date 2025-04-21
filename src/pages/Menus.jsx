@@ -705,7 +705,7 @@ const MenuSection = () => {
         },
 
         {
-          name: "Classic Cholet",
+          name: "Classic Chocolate",
           description: "Refreshing mint lime cocktail",
           price: "$42",
           image: img7
