@@ -650,6 +650,8 @@ import img22 from "../image/pe5.jpg"
 import img23 from "../image/pe3.jpg"
 import img24 from "../image/brg2.jpg"
 import img25 from "../image/ch1.jpg"
+import img26 from "../image/fish1.jpg"
+// import img25 from "../image/ch1.jpg"
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -738,10 +740,10 @@ const MenuSection = () => {
           image: img23
         },
         {
-          name: "Peaza ",
-          description: " peaza with chicken  ",
+          name: "Fish ",
+          description: " Fish with chicken  ",
           price: "$15",
-          image: img22
+          image: img26
         },
         {
           name: "Coffee",
