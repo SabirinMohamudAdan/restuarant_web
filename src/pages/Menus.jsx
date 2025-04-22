@@ -644,6 +644,12 @@ import img17 from "../image/cup3.jpg";
 import img18 from "../image/cup10.jpg";
 import img19 from "../image/cup2.jpg";
 import img20 from "../image/cup4.jpg";
+
+import img21 from "../image/cup4.jpg"
+import img22 from "../image/cup4.jpg"
+import img23 from "../image/cup4.jpg"
+import img24 from "../image/cup4.jpg"
+import img25 from "../image/cup4.jpg"
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -692,6 +698,56 @@ const MenuSection = () => {
           description: "Crispy shrimp rolls with melted cheese",
           price: "$42",
           image: img13
+        }
+      ]
+    },
+
+
+
+    {
+      category: "CHICKEN",
+      items: [
+        {
+          name: "Cool Coffee",
+          description: "Cofee  chocolate  with nice",
+          price: "$9",
+          image: img14
+        },
+        {
+          name: " Chocolate Coffee",
+          description: "Cofee  chocolate  with nice",
+          price: "$5",
+          image: img20
+        },
+        {
+          name: "Coffee ",
+          description: " Hot Coffee  ",
+          price: "$9",
+          image: img18
+        },
+        {
+          name: "Coffee",
+          description: "Cofee  chocolate  with nice",
+          price: "$10",
+          image: img19
+        },
+        {
+          name: "Coffee",
+          description: "Coffee  chocolate with hot",
+          price: "$7",
+          image: img15
+        },
+        {
+          name: "Chocolate Coffe",
+          description: "Coffee  chocolate  with nice",
+          price: "$8",
+          image: img16
+        },
+        {
+          name: "Coffee",
+          description: " Cool Coffee   with nice",
+          price: "$12",
+          image: img17
         }
       ]
     },
