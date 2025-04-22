@@ -652,6 +652,9 @@ import img24 from "../image/brg2.jpg"
 import img25 from "../image/ch1.jpg"
 import img26 from "../image/fish1.jpg"
 import img27 from "../image/sh1.jpg"
+import img28 from "../image/sh2.jpg"
+import img29 from "../image/sh4.jpg"
+// import img30 from "../image/sh1.jpg"
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
@@ -751,6 +754,18 @@ const MenuSection = () => {
           description: " Shuwarma with chicken  ",
           price: "$21",
           image: img27
+        },
+        {
+          name: "Shuwarma ",
+          description: " Shuwarma with chicken  ",
+          price: "$21",
+          image: img28
+        },
+        {
+          name: "Shuwarma ",
+          description: " Shuwarma with chicken  ",
+          price: "$21",
+          image: img29
         },
         {
           name: "Shuwarma ",
