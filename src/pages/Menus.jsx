@@ -708,8 +708,8 @@ const MenuSection = () => {
       category: "CHICKEN",
       items: [
         {
-          name: "Cool Coffee",
-          description: "Cofee  chocolate  with nice",
+          name: "Burger",
+          description: "burger with chicken ",
           price: "$9",
           image: img14
         },
