@@ -714,34 +714,34 @@ const MenuSection = () => {
           image: img24
         },
         {
-          name: " Chocolate Coffee",
-          description: "Cofee  chocolate  with nice",
-          price: "$5",
-          image: img20
+          name: " Chicken",
+          description: "chicken  with delicious test",
+          price: "$25",
+          image: img25
         },
         {
-          name: "Coffee ",
-          description: " Hot Coffee  ",
-          price: "$9",
-          image: img18
+          name: "Peaza ",
+          description: " peaza with chicken  ",
+          price: "$15",
+          image: img21
         },
         {
-          name: "Coffee",
-          description: "Cofee  chocolate  with nice",
-          price: "$10",
-          image: img19
+          name: "Peaza ",
+          description: " peaza with chicken  ",
+          price: "$20",
+          image: img22
         },
         {
-          name: "Coffee",
-          description: "Coffee  chocolate with hot",
-          price: "$7",
-          image: img15
+          name: "Peaza ",
+          description: " peaza with chicken  ",
+          price: "$30",
+          image: img23
         },
         {
-          name: "Chocolate Coffe",
-          description: "Coffee  chocolate  with nice",
-          price: "$8",
-          image: img16
+          name: "Peaza ",
+          description: " peaza with chicken  ",
+          price: "$15",
+          image: img22
         },
         {
           name: "Coffee",
