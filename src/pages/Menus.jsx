@@ -764,13 +764,13 @@ const MenuSection = () => {
         {
           name: "Shuwarma ",
           description: " Shuwarma with chicken  ",
-          price: "$21",
+          price: "$26",
           image: img29
         },
         {
           name: "Shuwarma ",
           description: " Shuwarma with chicken  ",
-          price: "$21",
+          price: "$20",
           image: img27
         }
       ]
