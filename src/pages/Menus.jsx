@@ -645,11 +645,11 @@ import img18 from "../image/cup10.jpg";
 import img19 from "../image/cup2.jpg";
 import img20 from "../image/cup4.jpg";
 
-import img21 from "../image/cup4.jpg"
-import img22 from "../image/cup4.jpg"
-import img23 from "../image/cup4.jpg"
-import img24 from "../image/cup4.jpg"
-import img25 from "../image/cup4.jpg"
+import img21 from "../image/pe1.jpg"
+import img22 from "../image/pe5.jpg"
+import img23 from "../image/pe3.jpg"
+import img24 from "../image/brg2.jpg"
+import img25 from "../image/ch1.jpg"
 const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("MAINS");
   const [showMoreDrinks, setShowMoreDrinks] = useState(false);
