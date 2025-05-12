@@ -2016,8 +2016,8 @@ function Home() {
           </div>
         </div>
 
-        {/* <SpecialsCard/>
-        <MenuSection/>
+        <SpecialsCard/>
+        {/* <MenuSection/>
         <ReservationForm/>
         <EventsSection/>
         <StatsSection/>
