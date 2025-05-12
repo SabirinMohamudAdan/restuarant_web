@@ -2016,12 +2016,12 @@ function Home() {
           </div>
         </div>
 
-        <SpecialsCard/>
+        {/* <SpecialsCard/>
         <MenuSection/>
         <ReservationForm/>
         <EventsSection/>
         <StatsSection/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </>
   );
