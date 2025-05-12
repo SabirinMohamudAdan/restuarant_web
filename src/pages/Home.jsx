@@ -1643,6 +1643,7 @@ import ReservationForm from './Booking';
 import EventsSection from './Events';
 import StatsSection from './Stats';
 import Footer from '../components/Footer';
+import AboutUs from './About';
 
 // Animation Variants
 const slideIn = {
@@ -2021,6 +2022,7 @@ function Home() {
         <ReservationForm/>
         <EventsSection/>
         <StatsSection/>
+        {/* <AboutUs/> */}
         <Footer/>
       </div>
     </>
