@@ -2019,9 +2019,9 @@ function Home() {
         <SpecialsCard/>
         <MenuSection/>
         <ReservationForm/>
-        {/* <EventsSection/>
+        <EventsSection/>
         <StatsSection/>
-        <Footer/> */}
+        <Footer/>
       </div>
     </>
   );
