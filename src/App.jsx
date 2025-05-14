@@ -35,12 +35,12 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/menu" element={<MenuSection/>} />
+        <Route path="/menu" element={<MenuSection/>} />
         <Route path="/about" element={<About />} />
         <Route path="/book" element={<Book />} />
         <Route path="/event" element={<Event />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
