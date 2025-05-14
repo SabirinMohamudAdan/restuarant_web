@@ -1,16 +1,16 @@
-import Home from "./pages/Home"
+// import Home from "./pages/Home"
 
 
-function App() {
+// function App() {
   
 
-  return (
-    <>
-     <Home/>
+//   return (
+//     <>
+//      <Home/>
        
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
 // export default App
 
@@ -18,18 +18,20 @@ function App() {
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
-import Header from "./Header"; // Assuming your Header component is in Header.js
+// import Header from "."; // Assuming your Header component is in Header.js
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Book from "./pages/Book";
 import Event from "./pages/Event";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
