@@ -1640,7 +1640,7 @@ import Service from './Service';
 import SpecialsCard from './SpcialSer';
 import MenuSection from './Menus';
 import ReservationForm from './Booking';
-import EventsSection from './Events';
+import EventsSection from './Event';
 import StatsSection from './Stats';
 import Footer from '../components/Footer';
 import AboutUs from './About';
