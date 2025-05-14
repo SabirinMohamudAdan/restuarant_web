@@ -63,7 +63,7 @@ import MenuSection from './pages/Menus';
 function App() {
   return (
     <>
-      {/* <Header/> */}
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<MenuSection />} />
