@@ -1992,9 +1992,9 @@ const MenuSection = () => {
             image: img9
           },
           {
-            name: "Crispy Squid",
-            description: "Golden fried squid with garlic aioli",
-            price: "$54",
+            name: "Leomon",
+            description: "Our special house cocktail blend",
+            price: "$48",
             image: img5
           }
         ] : [])
