@@ -77,7 +77,7 @@
 
 
 import React from 'react';
-import aboutImage from "../image/about.jpg"; // Replace with your actual image
+import aboutImage from "../image/abu.jpg"; // Replace with your actual image
 
 function AboutUs() {
   return (
