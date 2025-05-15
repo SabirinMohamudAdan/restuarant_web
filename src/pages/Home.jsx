@@ -1781,7 +1781,7 @@ function Home() {
 
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
       
       <div className="relative w-full min-h-screen">
         {/* Hero Section with Background Image */}
