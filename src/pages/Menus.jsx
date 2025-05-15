@@ -1981,13 +1981,13 @@ const MenuSection = () => {
         ...(showMoreDrinks ? [
           {
             name: "Tropical Sunrise",
-            description: "Vibrant layered fruit cocktail",
+            description: "Refreshing mint lime cocktail",
             price: "$52",
             image: img8
           },
           {
             name: " Watermelon",
-            description: "Classic whiskey with citrus twist",
+            description: "Refreshing mint lime cocktail",
             price: "$58",
             image: img9
           },
