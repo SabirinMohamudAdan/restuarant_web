@@ -1957,7 +1957,7 @@ const MenuSection = () => {
         {
           name: "Leomon",
           description: "Our special house cocktail blend",
-          price: "$48",
+          price: "$2",
           image: img6
         },
         {
