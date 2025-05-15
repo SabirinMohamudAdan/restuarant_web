@@ -1986,7 +1986,7 @@ const MenuSection = () => {
             image: img8
           },
           {
-            name: "Whiskey Sour",
+            name: " Watermelon",
             description: "Classic whiskey with citrus twist",
             price: "$58",
             image: img9
