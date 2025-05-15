@@ -2023,7 +2023,7 @@ function Home() {
         <EventsSection/>
         <StatsSection/>
         {/* <AboutUs/> */}
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </>
   );
