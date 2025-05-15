@@ -1980,7 +1980,7 @@ const MenuSection = () => {
         },
         ...(showMoreDrinks ? [
           {
-            name: "Tropical Sunrise",
+            name: "Coconut",
             description: "Refreshing mint lime cocktail",
             price: "$52",
             image: img8
