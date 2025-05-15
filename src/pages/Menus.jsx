@@ -1775,13 +1775,13 @@ const MenuSection = () => {
         {
           name: "Chicken Crispy Roll",
           description: "Crispy fried chicken rolls with special dipping sauce",
-          price: "$86",
+          price: "$20",
           image: img1
         },
         {
           name: "Roasted Chicken",
           description: "Herb-roasted free-range chicken with vegetables",
-          price: "$55",
+          price: "$8",
           image: img2
         },
         {
