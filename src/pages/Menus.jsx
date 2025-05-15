@@ -1822,7 +1822,7 @@ const MenuSection = () => {
         {
           name: "Baked Crab Cheese",
           description: "Lump crab meat baked with three cheeses",
-          price: "$89",
+          price: "$40",
           image: img12
         },
         {
