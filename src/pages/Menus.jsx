@@ -1742,7 +1742,7 @@ import img5 from "../image/limo.jpg";
 import img6 from "../image/d5.jpg";
 import img7 from "../image/d3.jpg";
 import img8 from "../image/qumbo.jpg";
-import img9 from "../image/m2.jpg";
+import img9 from "../image/qare.jpg";
 import img10 from "../image/d8.jpg";
 import img11 from "../image/d10.jpg";
 import img12 from "../image/sr1.jpg";
