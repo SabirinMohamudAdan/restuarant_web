@@ -1792,7 +1792,7 @@ const MenuSection = () => {
         },
         {
           name: "Coconut ",
-          description: "Juicy grilled beef steak with mashed potatoes",
+          description: "Our special drink ",
           price: "$2",
           image: img8
         },
