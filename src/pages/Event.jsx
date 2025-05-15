@@ -759,6 +759,9 @@ const EventsSection = () => {
           ))}
         </div>
       </div>
+      <div>
+        
+      </div>
     </div>
   );
 };
