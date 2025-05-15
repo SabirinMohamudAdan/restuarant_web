@@ -1806,7 +1806,7 @@ const MenuSection = () => {
         {
           name: "Spicy Shrimp Platter",
           description: "Grilled shrimp with spicy garlic sauce",
-          price: "$60",
+          price: "$30",
           image: img3
         }
       ]
