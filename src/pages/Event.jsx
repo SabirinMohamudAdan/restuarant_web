@@ -479,6 +479,7 @@ import { motion } from 'framer-motion';
 import event1Video from "../image/ve1.mp4";
 import event2Video from "../image/ve2.mp4";
 import event3Video from "../image/ve3.mp4";
+import Footer from '../components/Footer';
 
 const EventsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -760,7 +761,7 @@ const EventsSection = () => {
         </div>
       </div>
       <div>
-        
+        <Footer/>
       </div>
     </div>
   );
