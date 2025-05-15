@@ -1791,9 +1791,9 @@ const MenuSection = () => {
           image: img5
         },
         {
-          name: "Beef Steak",
+          name: "Coconut ",
           description: "Juicy grilled beef steak with mashed potatoes",
-          price: "$75",
+          price: "$2",
           image: img8
         },
         {
