@@ -100,7 +100,7 @@ function AboutUs() {
             <h1 className="text-3xl md:text-4xl font-bold tracking-[0.1em] text-white transform hover:translate-x-3 transition-transform duration-500 ease-out">
               A B O U T   U S
             </h1>
-            <h2 className="text-xl md:text-2xl font-light italic text-blue-400 tracking-widest transform hover:translate-x-4 transition-transform duration-500 delay-100 ease-out">
+            <h2 className="text-xl md:text-2xl font-light italic text-amber-500 tracking-widest transform hover:translate-x-4 transition-transform duration-500 delay-100 ease-out">
               Who We Are
             </h2>
           </header>
