@@ -1975,7 +1975,7 @@ const MenuSection = () => {
         {
           name: "Classic Chocolate",
           description: "Refreshing mint lime cocktail",
-          price: "$42",
+          price: "$6",
           image: img11
         },
         ...(showMoreDrinks ? [
