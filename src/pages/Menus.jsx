@@ -1785,7 +1785,7 @@ const MenuSection = () => {
           image: img2
         },
         {
-          name: "Grilled Salmon",
+          name: "Leomon",
           description: "Fresh salmon with lemon butter sauce",
           price: "$4",
           image: img5
