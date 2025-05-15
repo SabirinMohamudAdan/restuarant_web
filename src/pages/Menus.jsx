@@ -1787,7 +1787,7 @@ const MenuSection = () => {
         {
           name: "Grilled Salmon",
           description: "Fresh salmon with lemon butter sauce",
-          price: "$65",
+          price: "$4",
           image: img5
         },
         {
@@ -1798,6 +1798,7 @@ const MenuSection = () => {
         },
         {
           name: "Vegetable Pasta",
+          
           description: "Pasta with seasonal vegetables in creamy sauce",
           price: "$45",
           image: img9
