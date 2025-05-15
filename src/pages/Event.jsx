@@ -760,7 +760,7 @@ const EventsSection = () => {
           ))}
         </div>
       </div>
-      <div>
+      <div className='mt-12 sm:mt-16 md:mt-20'>
         <Footer/>
       </div>
     </div>
