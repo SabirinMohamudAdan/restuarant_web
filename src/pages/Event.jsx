@@ -761,7 +761,7 @@ const EventsSection = () => {
         </div>
       </div>
    
-    <Footer/>
+    {/* <Footer/> */}
 
     </div>
   
