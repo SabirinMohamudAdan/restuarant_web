@@ -1797,10 +1797,10 @@ const MenuSection = () => {
           image: img8
         },
         {
-          name: "Vegetable Pasta",
+          name: "Watermelom",
           
-          description: "Pasta with seasonal vegetables in creamy sauce",
-          price: "$45",
+          description: "Our special drink",
+          price: "$5",
           image: img9
         },
         {
