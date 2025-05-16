@@ -60,6 +60,7 @@ import Contact from "./pages/Contact";
 import Header from './components/Header';
 import MenuSection from './pages/Menus';
 import Footer from './components/Footer';
+import ReservationForm from './pages/Booking';
 
 function App() {
   return (
@@ -69,7 +70,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<MenuSection />} />
         <Route path="/about" element={<About />} />
-        <Route path="/book" element={<Book />} />
+        <Route path="/book" element={<ReservationForm />} />
         <Route path="/event" element={<Event />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
